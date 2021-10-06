@@ -1,9 +1,10 @@
 import './ExpensesContainer.css';
+import Card from './Card';
 import ExpenseItem from './ExpenseItem';
 
 const ExpensesContainer = ( { expenses } ) => {
   return (
-    <div className="expenses">
+    <Card className="expenses">
       {
         expenses.map( item => (
           <ExpenseItem
@@ -13,7 +14,7 @@ const ExpensesContainer = ( { expenses } ) => {
           />
         ))
       }
-    </div>
+    </Card>
   );
 };
 
