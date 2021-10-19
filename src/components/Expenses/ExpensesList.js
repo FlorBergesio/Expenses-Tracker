@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import './ExpensesList.css';
 import ExpenseItem from './ExpenseItem';
 

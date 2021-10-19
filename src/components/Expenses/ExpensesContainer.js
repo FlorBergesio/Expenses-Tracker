@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import './ExpensesContainer.css';
 import Card from '../UI/Card';
-import ExpenseItem from './ExpenseItem';
 import ExpensesFilter from './ExpensesFilter';
 import ExpensesList from './ExpensesList';
 
